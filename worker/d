@@ -1,0 +1,29 @@
+[
+  { code: 'pa', name: 'Punjabi', ai_translation_code: null },
+  { code: 'it', name: 'Italian', ai_translation_code: 'it' },
+  { code: 'pl', name: 'Polish', ai_translation_code: 'pl' },
+  { code: 'ko', name: 'Korean', ai_translation_code: 'ko' },
+  { code: 'vi', name: 'Vietnamese', ai_translation_code: null },
+  { code: 'bn', name: 'Bengali', ai_translation_code: null },
+  { code: 'ja', name: 'Japanese', ai_translation_code: 'ja' },
+  { code: 'hi', name: 'Hindi', ai_translation_code: null },
+  { code: 'ar', name: 'Arabic', ai_translation_code: 'ar' },
+  { code: 'zh', name: 'Chinese', ai_translation_code: 'zh' },
+  { code: 'fr', name: 'French', ai_translation_code: 'fr' },
+  {
+    code: 'en-au',
+    name: 'English (Australia)',
+    ai_translation_code: 'en'
+  },
+  { code: 'tr', name: 'Turkish', ai_translation_code: 'tr' },
+  { code: 'ru', name: 'Russian', ai_translation_code: 'ru' },
+  { code: 'pt', name: 'Portuguese', ai_translation_code: 'pt' },
+  { code: 'nl', name: 'Dutch', ai_translation_code: 'nl' },
+  {
+    code: 'en-gb',
+    name: 'English (United Kingdom)',
+    ai_translation_code: 'en'
+  },
+  { code: 'de', name: 'German', ai_translation_code: 'de' },
+  { code: 'es', name: 'Spanish', ai_translation_code: 'es' }
+]
