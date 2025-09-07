@@ -20,10 +20,10 @@ export const POST = async (
     return NextResponse.json({ status: "failed" }, { status: 404 });
   }
 
-  const { space_id, story_id, full_slug } = await request.json();
+  const { space_id, story_id } = await request.json();
 
   if (String(space_id) !== String(process.env.STORYBLOK_SPACE_ID)) {
-    return NextResponse.json({ status: "failed" }, { status: 404 });
+    return NextResponse.json({ status: "failed" }, { status: 400 });
   }
 
   await queue.add(story_id, {

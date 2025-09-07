@@ -1,13 +1,13 @@
 {
-  "name": "app",
+  "name": "storyblok-hackathon",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "tsx worker/translate.ts",
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "next dev app --turbopack",
+    "build": "next build app --turbopack",
+    "start": "next start app",
+    "lint": "eslint",
+    "worker": "tsx worker/translate.ts"
   },
   "dependencies": {
     "@radix-ui/react-progress": "^1.1.7",
