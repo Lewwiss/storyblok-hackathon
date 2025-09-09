@@ -1,8 +1,6 @@
 import dotenv from "dotenv";
 import axios from "axios";
 
-import * as fs from "fs";
-
 dotenv.config();
 
 export const translate = async ({
@@ -88,7 +86,15 @@ export const translate = async ({
     return { obj };
   };
 
-  await fs.writeFileSync("output.json", JSON.stringify((await inject(content)).obj, null, 2), "utf8");
+
+  // fetch tags
+
+
+  // create tag if it doesn't exist
+
+
+  // add tag to story
+
 
   // await axios.put(
   //   `https://mapi.storyblok.com/v1/spaces/${process.env.STORYBLOK_SPACE_ID}/stories/${id}`,
